@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Kids space</string>
+    <string name="bell">bell</string>
+    <string name="language">Select Language </string>
+    <string name="r1" tools:ignore="Typos">rectangle1</string>
+    <string name="kids_space">Kids space</string>
+    <string name="textview">TextView</string>
+    <string name="english">english</string>
+    <string name="homepage">Homepage</string>
+    <string name="menu">menu</string>
+    <string name="kannada">kANNADA</string>
+    <string name="malayalam">MALAYALAM</string>
+    <string name="tulu">TULU</string>
+    <string name="coming_soon1">COMING SOON</string>
+    <string name="coming_soon">COMING SOON</string>
+    <string name="mainpage">Mainpage</string>
+    <string name="button">Button</string>
+    <string name="button2">Button</string>
+    <string name="button1">A to Z</string>
+    <string name="home_button">HOME BUTTON</string>
+    <string name="a_for_apple">A for apple\nB for ball\nC for cat\nD for Dog\nE for Elephant\nF for fish</string>
+    <string name="arasa">ಅ ಅರಸ\nಆ ಆನೆ\nಇ ಇಳಿ</string>
+    <string name="_1_to_100">1 TO 100</string>
+    <string name="go_to_homepage">Go To Homepage</string>
+    <string name="a_a_in_kan">ಅ ಆ ಇ ಈ</string>
+    <string name="kannum">೧ ರಿ೦ದ ೧೦೦</string>
+    <string name="go_to_mainpage">Go to mainpage</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Mainpageb"
+    android:background="@drawable/ic_englishbg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="578dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/ic__23"
+                android:orientation="vertical" />
+
+            <RelativeLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonback"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="97dp"
+                    android:layout_height="53dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_arrowback"
+                    android:contentDescription="@string/menu"
+                    android:onClick="engnumback"
+                    app:backgroundTint="#FFEA30"
+                    app:backgroundTintMode="multiply"
+                    tools:ignore="TouchTargetSizeCheck,UsingOnClickInXml" />
+
+                <Button
+                    android:id="@+id/buttonnext"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="97dp"
+                    android:layout_height="53dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:onClick="engnumnext"
+                    android:background="@drawable/ic_arrow"
+                    android:contentDescription="@string/menu"
+                    app:backgroundTint="#FFEA30"
+                    app:backgroundTintMode="multiply"
+                    tools:ignore="TouchTargetSizeCheck,UsingOnClickInXml" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Mainpagetwo"
+    android:background="@drawable/ic_maino">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:fontFamily="@font/audiowide_regular"
+        android:text="@string/mainpage"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="5dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="20dp">
+
+        <Button
+                android:id="@+id/button1"
+                android:layout_width="313dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_mainpage"
+                android:fontFamily="@font/audiowide_regular"
+                android:text="@string/a_a_in_kan"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="313dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/custom_mainpage"
+                android:fontFamily="@font/aclonica_regular"
+                android:text="@string/kannum"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="@color/black"
+                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="313dp"
+                android:layout_height="89dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/custom_mainpage"
+                android:fontFamily="@font/audiowide_regular"
+                android:text="@string/arasa"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="90dp"
+                android:layout_marginBottom="35dp"
+                android:onClick="kangohome"
+                android:background="@drawable/custom_mainpage"
+                android:fontFamily="@font/aclonica_regular"
+                android:text="@string/go_to_homepage"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/black"
+                tools:ignore="TouchTargetSizeCheck,UsingOnClickInXml" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
